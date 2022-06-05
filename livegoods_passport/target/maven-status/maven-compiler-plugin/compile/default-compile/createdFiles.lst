@@ -1,0 +1,9 @@
+com\livegoods\passport\service\PassportService.class
+com\livegoods\passport\config\PassportConfiguration.class
+com\livegoods\passport\dao\mongo\impl\PassportDao4MongoImpl.class
+com\livegoods\passport\dao\redis\PassportDao4Redis.class
+com\livegoods\passport\LivegoodsPassportApp.class
+com\livegoods\passport\controller\PassportController.class
+com\livegoods\passport\service\impl\PassportServiceImpl.class
+com\livegoods\passport\dao\redis\impl\PassportDao4RedisImpl.class
+com\livegoods\passport\dao\mongo\PassportDao4Mongo.class

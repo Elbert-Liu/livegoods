@@ -1,0 +1,37 @@
+db.items.insertMany([
+  {"title":"台灯","img":"group1/M00/00/00/wKgDfmKLf-eAFTavAACj6oiIMnY737.jpg","sales":100,"recommendation":true,"recommendationSort":9,"city":"北京"},
+  {"title":"靠垫","img":"group1/M00/00/00/wKgDfmKLf-eAKRE-AADzZuYOH74393.jpg","sales":200,"recommendation":true,"recommendationSort":3,"city":"北京"},
+  {"title":"床头柜","img":"group1/M00/00/00/wKhZjl9i2G-AOVAaAABK2hH79u0898.png","sales":160,"recommendation":true,"recommendationSort":6,"city":"北京"},
+  {"title":"喷头","img":"group1/M00/00/00/wKgDfmKLf-eANpGOAABI1OODIIs297.png","sales":130,"recommendation":false,"recommendationSort":0,"city":"北京"},
+  {"title":"衣柜","img":"group1/M00/00/00/wKgDfmKLf-eAX8TVAABSehBABhI375.png","sales":190,"recommendation":false,"recommendationSort":0,"city":"北京"},
+  {"title":"台灯","img":"group1/M00/00/00/wKhZjl9i2G-AXDXGAABI1OODIIs071.png","sales":106,"recommendation":true,"recommendationSort":9,"city":"上海"},
+  {"title":"靠垫","img":"group1/M00/00/00/wKgDfmKLf-eAR8hLAAA5uZKyZ4s218.png","sales":203,"recommendation":true,"recommendationSort":3,"city":"上海"},
+  {"title":"床头柜","img":"group1/M00/00/00/wKhZjl9i2HCAQt0nAABj-VwJTus512.png","sales":260,"recommendation":true,"recommendationSort":6,"city":"上海"},
+  {"title":"喷头","img":"group1/M00/00/00/wKgDfmKLf-eANlXDABHVEJUid8Y571.gif","sales":30,"recommendation":true,"recommendationSort":7,"city":"上海"},
+  {"title":"衣柜","img":"group1/M00/00/00/wKhZjl9i2G-AXDXGAABI1OODIIs071.png","sales":130,"recommendation":false,"recommendationSort":0,"city":"上海"},
+  {"title":"台灯","img":"group1/M00/00/00/wKgDfmKLf-eAR8hLAAA5uZKyZ4s218.png","sales":106,"recommendation":true,"recommendationSort":9,"city":"天津"},
+  {"title":"靠垫","img":"group1/M00/00/00/wKgDfmKLf-eAR8hLAAA5uZKyZ4s218.png","sales":203,"recommendation":true,"recommendationSort":3,"city":"天津"},
+  {"title":"床头柜","img":"group1/M00/00/00/wKgDfmKLf-eAR8hLAAA5uZKyZ4s218.png","sales":260,"recommendation":true,"recommendationSort":6,"city":"天津"},
+  {"title":"喷头","img":"group1/M00/00/00/wKgDfmKLf-eAR8hLAAA5uZKyZ4s218.png","sales":30,"recommendation":true,"recommendationSort":7,"city":"天津"},
+  {"title":"衣柜","img":"group1/M00/00/00/wKgDfmKLf-eAKyKtAAB5HGATto4089.png","sales":130,"recommendation":false,"recommendationSort":0,"city":"天津"},
+  {"title":"台灯","img":"group1/M00/00/00/wKhZjl9i2G-AawZNAAB5HGATto4576.png","sales":106,"recommendation":true,"recommendationSort":9,"city":"杭州"},
+  {"title":"靠垫","img":"group1/M00/00/00/wKgDfmKLf-eAH9_mAADZCwsgDr8220.jpg","sales":203,"recommendation":true,"recommendationSort":3,"city":"杭州"},
+  {"title":"床头柜","img":"group1/M00/00/00/wKgDfmKLf-eAN2e7ABLGyzFLLI0143.gif","sales":260,"recommendation":false,"recommendationSort":0,"city":"杭州"},
+  {"title":"喷头","img":"group1/M00/00/00/wKgDfmKLf-eAWbg6AAAy6hLOXWY096.png","sales":30,"recommendation":false,"recommendationSort":0,"city":"杭州"},
+  {"title":"衣柜","img":"group1/M00/00/00/wKgDfmKLf-eAV9FHAADEWJ2H-q8579.jpg","sales":130,"recommendation":false,"recommendationSort":0,"city":"杭州"},
+]);
+
+wKgDfmKLf-eAFTavAACj6oiIMnY737.jpg  wKgDfmKLf-eAKRE-AADzZuYOH74393.jpg  wKgDfmKLf-eANpGOAABI1OODIIs297.png  wKgDfmKLf-eAX8TVAABSehBABhI375.png
+wKgDfmKLf-eAGsFlAACUlqaDUJs858.jpg  wKgDfmKLf-eAKyKtAAB5HGATto4089.png  wKgDfmKLf-eAR8hLAAA5uZKyZ4s218.png
+wKgDfmKLf-eAH9_mAADZCwsgDr8220.jpg  wKgDfmKLf-eALUeTAABj-VwJTus414.png  wKgDfmKLf-eAV9FHAADEWJ2H-q8579.jpg
+wKgDfmKLf-eAI451AABK2hH79u0337.png  wKgDfmKLf-eAN2e7ABLGyzFLLI0143.gif  wKgDfmKLf-eAWbg6AAAy6hLOXWY096.png
+wKgDfmKLf-eAIwuBAAB-Ge02cg4163.png  wKgDfmKLf-eANlXDABHVEJUid8Y571.gif  wKgDfmKLf-eAWsrPABS0Li3X3nE770.gif
+
+db.item.insert({"title":"北京的商品1","img":"/group1/M00/00/00/wKgDfmKLf-eAFTavAACj6oiIMnY737.jpg","link":"http://www.bjsxt.com","sales":1,"recommendation":true,"recoSort":1,"city":"北京"});
+db.item.insert({"title":"北京的商品2","img":"/group1/M00/00/00/wKgDfmKLf-eAWsrPABS0Li3X3nE770.gif","link":"http://www.bjsxt.com","sales":2,"recommendation":true,"recoSort":1,"city":"北京"});
+db.item.insert({"title":"北京的商品3","img":"/group1/M00/00/00/wKgDfmKLf-eAWbg6AAAy6hLOXWY096.png","link":"http://www.bjsxt.com","sales":3,"recommendation":true,"recoSort":1,"city":"北京"});
+db.item.insert({"title":"北京的商品4","img":"/group1/M00/00/00/wKgDfmKLf-eAV9FHAADEWJ2H-q8579.jpg","link":"http://www.bjsxt.com","sales":4,"recommendation":true,"recoSort":1,"city":"北京"});
+db.item.insert({"title":"上海的商品1","img":"/group1/M00/00/00/wKgDfmKLf-eAR8hLAAA5uZKyZ4s218.png","link":"http://www.bjsxt.com","sales":5,"recommendation":true,"recoSort":1,"city":"上海"});
+db.item.insert({"title":"上海的商品2","img":"/group1/M00/00/00/wKgDfmKLf-eANpGOAABI1OODIIs297.png","link":"http://www.bjsxt.com","sales":6,"recommendation":true,"recoSort":1,"city":"上海"});
+db.item.insert({"title":"上海的商品3","img":"/group1/M00/00/00/wKgDfmKLf-eAX8TVAABSehBABhI375.png","link":"http://www.bjsxt.com","sales":7,"recommendation":true,"recoSort":1,"city":"上海"});
+db.item.insert({"title":"上海的商品4","img":"/group1/M00/00/00/wKgDfmKLf-eANlXDABHVEJUid8Y571.gif","link":"http://www.bjsxt.com","sales":8,"recommendation":true,"recoSort":1,"city":"上海"});
